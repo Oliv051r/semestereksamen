@@ -1,0 +1,115 @@
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+    list-style-type: none;
+}
+
+/*header*/
+
+nav {
+    background-color: #FFDDDD;
+    border-top-color: red;
+    position: relative;
+    top: 0.1rem;
+}
+
+/* billeder*/
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*Text styles*/
+
+h1 {
+    color: #000000;
+    font-size: 1.8rem;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    color: #000000;
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: #000000;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Links styling*/
+
+a {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: lightpink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:active {
+    color: lightpink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 1180px) {
+
+    /*Burgermenu - mobilversion - fra 0 til max 600*/
+
+    nav {
+        position: absolute;
+        z-index: 1;
+        margin-top: 0;
+        height: 100%;
+        width: 97vw;
+        background-color: #ffeeee;
+    }
+
+    .nav_logo {
+        border-radius: 100%;
+    }
+
+    #menuknap {
+        display: inline-block;
+        color: grey;
+        z-index: 2;
+        font-size: 2.5rem;
+        position: absolute;
+        top: 1.8vh;
+        left: 7vw;
+    }
+
+    ul {
+        line-height: 200%;
+    }
+
+    #menu {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        top: 4rem;
+        left: 15vw;
+    }
+
+    a {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    a {
+        font-size: 1.2rem;
+    }
+}
