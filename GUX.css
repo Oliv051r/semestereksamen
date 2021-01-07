@@ -1,0 +1,23 @@
+.GUX {
+    color: lightpink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.billed_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+img {
+    box-shadow: 5px 5px 5px lightgrey;
+
+}
+
+.col {
+    margin-left: 5rem;
+}
