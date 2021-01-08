@@ -7,8 +7,17 @@
     margin: 0 auto;
 }
 
+
 body {
     margin: 0 auto;
+}
+
+.billed_container {
+    width: 75vw;
+    height: 75%;
+    padding: 2.5rem 3rem 0.5rem 11rem;
+    justify-content: space-between;
+
 }
 
 /*header*/
@@ -70,7 +79,7 @@ a:active {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 1200px) {
 
     /*Burgermenu - mobilversion - fra 0 til max 1180*/
 
@@ -78,18 +87,14 @@ a:active {
         position: absolute;
         z-index: 1;
         margin-top: 0;
-        height: 100%;
+        height: 140%;
         width: 100vw;
         background-color: #ffeeee;
     }
 
-    .nav_logo {
-        border-radius: 100%;
-    }
-
     #menuknap {
         display: inline-block;
-        color: grey;
+        color: black;
         z-index: 2;
         font-size: 2.5rem;
         position: absolute;
@@ -109,15 +114,25 @@ a:active {
         left: 15vw;
     }
 
+
     a {
         font-size: 1.6rem;
     }
+
+
+    h1 {
+        font-size: 2rem;
+    }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
 
     a {
-        font-size: 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.4rem;
     }
 }
 
@@ -161,4 +176,25 @@ a:active {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+
+    /*javascript*/
+    .hidden {
+        display: none;
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+
+
+
+@media (min-width: 1200px) {
+    #menuknap {
+        display: none;
+    }
+
+
 }

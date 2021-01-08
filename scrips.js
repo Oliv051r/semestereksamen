@@ -3,24 +3,7 @@ window.addEventListener("load", sidenVises);
 function sidenVises() {
     console.log("sidenVises");
 
-    document.querySelector("#menuknap").addEventListener("mousedown", toggleMenu);
-
-    document.querySelector(".kort_img1").addEventListener("mouseover", swapImage);
-    document.querySelector(".kort_img1").addEventListener("mouseout", swapImage);
-
-    document.querySelector(".kort_img2").addEventListener("mouseover", swapImage);
-    document.querySelector(".kort_img2").addEventListener("mouseout", swapImage);
-
-    document.querySelector(".kort_img3").addEventListener("mouseover", swapImage);
-    document.querySelector(".kort_img3").addEventListener("mouseout", swapImage);
-
-}
-
-
-function swapImage() {
-    console.log("swapImage");
-    this.firstElementChild.classList.toggle("hide");
-    this.lastElementChild.classList.toggle("hide");
+    document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 }
 
 /*Brug til burgermenu!!*/
@@ -36,6 +19,5 @@ function toggleMenu() {
     } else {
         document.querySelector("#menuknap").textContent = "✕";
     }
-
 
 }
