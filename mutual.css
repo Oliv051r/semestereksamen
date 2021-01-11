@@ -39,7 +39,7 @@ img {
 /*Text styles*/
 
 h1 {
-    color: #ffeeee;
+    color: black;
     font-size: 5rem;
     text-align: left;
     font-family: 'Raleway', sans-serif;
@@ -48,7 +48,7 @@ h1 {
 
 h2 {
     color: #000000;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: left;
     font-family: 'Raleway', sans-serif;
 }
@@ -57,6 +57,7 @@ p {
     color: #000000;
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
+    line-height: 1.9rem;
 }
 
 /*Links styling*/
@@ -87,7 +88,7 @@ a:active {
         position: absolute;
         z-index: 1;
         margin-top: 0;
-        height: 140%;
+        height: 180%;
         width: 100vw;
         background-color: #ffeeee;
     }
@@ -116,25 +117,66 @@ a:active {
 
 
     a {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
-
 
     h1 {
-        font-size: 2rem;
+        margin-top: 4rem;
     }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .billed_container {
+        width: 75vw;
+        height: 75%;
+        padding: 1.5rem 0.5rem 0.5rem 7rem;
+        justify-content: space-between;
+
+    }
+
 }
 
 @media (max-width: 750px) {
 
     a {
-        font-size: 0.9rem;
+        font-size: 1.1rem;
     }
 
     h1 {
-        font-size: 1.4rem;
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+
+    .billed_container {
+        width: 75vw;
+        height: 75%;
+        padding: 1.5rem 0.5rem 0.5rem 5.5rem;
+        justify-content: space-between;
+
     }
 }
+
+@media (max-width: 525px) {
+    .billed_container {
+        width: 75vw;
+        height: 75%;
+        padding: 1.5rem 0.5rem 0.5rem 3.5rem;
+        justify-content: space-between;
+
+    }
+}
+
 
 /*Overlay på may also like*/
 .container {

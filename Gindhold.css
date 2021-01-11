@@ -18,6 +18,10 @@
 
 }
 
+.image1 {
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
 .col {
     margin-left: 3.5rem;
     margin-right: 3.5rem;

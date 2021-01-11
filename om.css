@@ -6,8 +6,9 @@
 .tekst {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 4rem;
+    justify-content: space-between;
+    grid-column-gap: 2.5rem;
 }
 
 .row {
@@ -17,6 +18,11 @@
 
 
 @media (max-width: 1000px) {
+
+    .tekst {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 
     .row {
         display: grid;

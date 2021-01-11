@@ -3,13 +3,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 1000px){
-.container1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
+@media (min-width: 1000px) {
+    .container1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .billed_container {
@@ -17,10 +15,16 @@
     grid-template-columns: 1fr 1fr 1fr;
 
 }
-/*img {
-    box-shadow: 5px 5px 5px lightgrey;
 
-}*/
+.image2 {
+    box-shadow: 5px 5px 5px 5px lightgrey;
+
+}
+
+.image3 {
+    box-shadow: 5px 5px 5px 5px lightgrey;
+
+}
 
 .col {
     margin-left: 3.5rem;
