@@ -42,7 +42,7 @@ h1 {
     color: black;
     font-size: 5rem;
     text-align: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ h2 {
     color: #000000;
     font-size: 1.5rem;
     text-align: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -117,7 +117,7 @@ a:active {
 
 
     a {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     h1 {
@@ -125,7 +125,7 @@ a:active {
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
     p {
@@ -150,13 +150,16 @@ a:active {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     p {
         font-size: 0.9rem;
     }
 
+    h2 {
+        font-size: 1.3rem;
+    }
 
     .billed_container {
         width: 75vw;
