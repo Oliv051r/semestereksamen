@@ -6,7 +6,7 @@
 .tekst {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 0.5rem 1.5rem 0.5rem 4rem;
+    padding: 0.5rem 4rem 0.5rem 4rem;
     justify-content: space-between;
     grid-column-gap: 2.5rem;
 }
@@ -63,7 +63,7 @@
     }
 
     to {
-        transform: translateX(190vw);
+        transform: translateX(200vw);
     }
 }
 
@@ -122,21 +122,21 @@
 /*-------------------------------------------------*/
 
 .pos0 {
-    top: 3.5vw;
+    top: 4vw;
     left: -1vw;
 }
 
 .pos1 {
-    top: 12.5vw;
+    top: 13.5vw;
     left: -31vw;
 }
 
 .pos2 {
-    top: 3.5vw;
+    top: 4vw;
     left: -61vw;
 }
 
 .pos3 {
-    top: 12.5vw;
+    top: 13.5vw;
     left: -91vw;
 }
