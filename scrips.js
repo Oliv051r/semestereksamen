@@ -4,10 +4,11 @@ function sidenVises() {
     console.log("sidenVises");
     document.querySelector("#menuknap").addEventListener("click", toggleMenu);
 
-    /*Brug til burgermenu!!*/
+
 
 }
 
+/*Burgermenu*/
 function toggleMenu() {
     console.log("toggleMenu");
     document.querySelector("nav").classList.toggle("hidden");
